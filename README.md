@@ -137,7 +137,7 @@ See `results/accuracy.png`, `results/loss.png`, and `results/confusion_matrix.pn
 ## Deployment
 Deployed on **Streamlit Community Cloud**. See `DEPLOYMENT.md` for full step-by-step instructions (GitHub setup, Streamlit Cloud configuration, testing microphone access, and obtaining the public URL).
 
-**Live App URL:** `<insert your deployed URL here after deployment>`
+**Live App URL:** https://voiceassist-student-assistant.streamlit.app
 
 ## Future Enhancements
 - Transformer-based intent classification (e.g. a small fine-tuned BERT) for higher accuracy
