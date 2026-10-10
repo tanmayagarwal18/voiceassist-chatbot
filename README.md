@@ -149,4 +149,4 @@ Deployed on **Streamlit Community Cloud**. See `DEPLOYMENT.md` for full step-by-
 - Context-aware multi-turn conversations
 
 ## Author
-`<Your Name>` — B.Tech Computer Science, Speech and Language Processing Laboratory Assessment.
+TANMAY AGARWAL(23BAI0172) — B.Tech Computer Science, Speech and Language Processing Laboratory Assessment.
