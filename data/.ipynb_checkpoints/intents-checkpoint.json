@@ -1,0 +1,332 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Hi there", "Hey", "Hey there", "Good morning",
+        "Good afternoon", "Good evening", "Hello VoiceAssist", "Yo",
+        "What's up", "Hiya", "Hello assistant", "Namaste", "Greetings",
+        "Hey can you hear me", "Hello are you there", "Hi how are you"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What would you like to know?",
+        "Hey! I'm VoiceAssist, ask me anything about college life.",
+        "Greetings! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "See you", "I have to go",
+        "Talk to you later", "Catch you later", "I'm leaving now",
+        "Bye bye", "Ok bye", "Thanks bye", "Gotta go", "Take care",
+        "See you tomorrow", "Alright goodbye", "Exiting now"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Feel free to come back anytime.",
+        "Bye! Good luck with your studies.",
+        "Take care, talk soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "Thank you so much",
+        "Appreciate it", "Thanks for the help", "That was helpful thanks",
+        "Great thanks", "Cool thank you", "Thanks a ton",
+        "Thank you very much", "Much appreciated", "Thanks buddy",
+        "Nice, thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime, glad I could assist.",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "How much attendance do I need?", "What is the attendance requirement?",
+        "How can I check my attendance?", "What happens if my attendance is low?",
+        "Tell me about attendance rules.", "What is the minimum attendance percentage?",
+        "I have low attendance what should I do", "Can I get condonation for attendance",
+        "Where can I see my attendance record", "Is 75 percent attendance compulsory",
+        "What if I miss too many classes", "How is attendance calculated",
+        "Attendance shortage what to do", "Will I be debarred for low attendance",
+        "How many classes can I skip", "Attendance portal link please",
+        "Medical leave attendance exemption", "Attendance rules for exams"
+      ],
+      "responses": [
+        "You should maintain the minimum attendance requirement specified by your institution, typically around 75%. Please check your academic regulations for the exact requirement.",
+        "Attendance is usually tracked on the student portal. If it falls below the required percentage, you may need to apply for condonation or medical exemption.",
+        "Most colleges require at least 75% attendance to be eligible to sit for exams. Check with your department for exact rules."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "When are the exams?", "What is the exam schedule?", "Tell me about exam dates",
+        "How do I prepare for exams", "What is the syllabus for the exam",
+        "Where can I download the exam timetable", "Is there a re-exam option",
+        "What are the internal exam marks", "How many exams are there this semester",
+        "What happens if I fail an exam", "Can I get a revaluation",
+        "What is the passing marks for exams", "Exam hall ticket download",
+        "Are exams online or offline", "What documents do I need for exams",
+        "How to apply for supplementary exams"
+      ],
+      "responses": [
+        "The exam schedule is usually released by the examination cell a few weeks before exams. Please check the official notice board or student portal.",
+        "For exam preparation, review your lecture notes, focus on previous year question papers, and clarify doubts with your professors early.",
+        "If you fail an exam, most institutions allow a supplementary or re-exam attempt in the next cycle. Check with your examination department."
+      ]
+    },
+    {
+      "tag": "assignments",
+      "patterns": [
+        "When is my assignment due?", "How do I submit my assignment",
+        "What is the assignment format", "Can I get an extension for my assignment",
+        "I missed the assignment deadline what now", "Where do I upload assignments",
+        "How many assignments per subject", "Is late submission allowed",
+        "What is the assignment word limit", "Assignment plagiarism policy",
+        "Can assignments be submitted in groups", "How are assignments graded",
+        "I need help with my assignment topic", "Assignment submission portal link"
+      ],
+      "responses": [
+        "Assignment deadlines are usually posted by your instructor on the course portal. Submit before the due date to avoid penalties.",
+        "Most institutions accept assignments through an online portal like Google Classroom or the college LMS. Check with your instructor for the correct link.",
+        "If you missed a deadline, contact your instructor as soon as possible to explain and ask about late submission policies."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available", "Tell me about the CSE course",
+        "What subjects do I have this semester", "How do I choose electives",
+        "What is the course curriculum", "Can I switch my major",
+        "What are the core subjects in computer science",
+        "How many credits do I need to graduate", "What electives are offered",
+        "Course registration process", "How to add or drop a course",
+        "What is the difference between core and elective subjects",
+        "Course prerequisites information"
+      ],
+      "responses": [
+        "Your semester subjects and electives are listed in the curriculum document provided by your department at the start of the semester.",
+        "Elective choices usually open during course registration; you can pick based on your interest and prerequisite requirements.",
+        "Course registration typically happens online through the academic portal at the start of each semester."
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "What is my class schedule", "Show me the timetable",
+        "When is my next class", "What time does college start",
+        "Is there a class on Saturday", "What is the lab schedule",
+        "Where can I find the timetable", "Has the timetable changed",
+        "What subjects are on Monday", "College timing information",
+        "When does the lunch break start", "Timetable for this semester"
+      ],
+      "responses": [
+        "The class timetable is usually shared by your department coordinator or posted on the notice board and student portal.",
+        "You can check your daily schedule on the college timetable page; it's updated whenever there are changes.",
+        "Lab and lecture schedules are typically fixed at the start of the semester. Confirm with your class representative if there are recent changes."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "How can I find an internship?", "Tell me about internship opportunities",
+        "Where do I apply for internships", "Is internship mandatory",
+        "How many credits does internship carry", "Internship for computer science students",
+        "How do I get an internship certificate", "Summer internship guidance",
+        "Internship stipend information", "Can I do a remote internship",
+        "How to write an internship report", "Internship duration required",
+        "Companies offering internships to students"
+      ],
+      "responses": [
+        "You can find internships through your college placement cell, LinkedIn, Internshala, or by directly reaching out to companies in your field.",
+        "Most programs require a minimum internship duration; check your department's internship policy for exact credit and duration requirements.",
+        "After completing an internship, you'll usually need to submit a report and a certificate from the company to your department."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "When do placements start", "How can I prepare for placements",
+        "Which companies visit for placements", "What is the average placement package",
+        "How does the placement process work", "Tell me about placement drives",
+        "Is coding practice needed for placements", "Placement eligibility criteria",
+        "How to register for campus placements", "What is the highest package offered",
+        "Mock interview preparation for placements", "Resume tips for placements"
+      ],
+      "responses": [
+        "Placement drives are usually organized by the training and placement cell; keep an eye on official announcements for company visits.",
+        "To prepare for placements, practice coding problems, brush up on core subjects, and work on your resume and communication skills.",
+        "Eligibility criteria vary by company but generally include minimum CGPA and no active backlogs. Check with your placement office for details."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "I need help choosing a project topic", "What is a good final year project idea",
+        "How do I submit my project", "What is the project evaluation process",
+        "Can I do a project in a group", "Project report format",
+        "How to find a project guide", "Deep learning project ideas",
+        "Mini project vs major project difference", "Project demonstration requirements",
+        "How many members allowed in a project team", "Project deadline extension request"
+      ],
+      "responses": [
+        "For project topics, consider your interests in areas like AI, web development, or IoT, and discuss feasibility with your project guide.",
+        "Project submissions usually require a report, source code, and a live demonstration in front of an evaluation panel.",
+        "You can approach a faculty member in your area of interest to be your project guide and finalize a topic together."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What are the library timings", "How do I issue a book",
+        "How many books can I borrow", "What is the library fine for late return",
+        "Is there an online library catalog", "Can I access e-books",
+        "How to renew a library book", "Library card application process",
+        "Where is the reading room located", "Library rules and regulations",
+        "Can I reserve a book online", "Digital library access"
+      ],
+      "responses": [
+        "Library timings are usually posted at the entrance and on the college website; most libraries are open from morning to evening on weekdays.",
+        "You can issue books using your library card at the circulation desk, and most colleges also offer an online catalog for searching titles.",
+        "Late returns typically attract a small fine per day; check with the librarian for the exact amount."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "How do I apply for hostel accommodation", "What are the hostel fees",
+        "Is hostel food included in fees", "What is the hostel curfew time",
+        "Can I change my hostel room", "Hostel Wi-Fi availability",
+        "What are the hostel rules", "How to get a hostel leave permission",
+        "Is AC room available in hostel", "Hostel laundry facility",
+        "How many students per hostel room", "Hostel warden contact details"
+      ],
+      "responses": [
+        "Hostel applications are usually processed through the college administration office at the start of the academic year.",
+        "Hostel fees typically cover accommodation and mess charges; check the official fee structure for the exact breakup.",
+        "Hostel rules including curfew timings and leave procedures are provided in the hostel handbook given at admission."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure", "How do I pay my college fees",
+        "Is there a fee installment option", "When is the fee payment deadline",
+        "What happens if I miss the fee deadline", "How to get a fee receipt",
+        "Are scholarships available to reduce fees", "Late fee payment fine",
+        "Semester fee amount", "Online fee payment portal",
+        "Can I get a fee refund", "Fee structure for hostel students"
+      ],
+      "responses": [
+        "The fee structure is published by the accounts department at the start of each academic year; check the official college website for details.",
+        "Fees can usually be paid online through the college payment portal using net banking, card, or UPI.",
+        "If you miss the deadline, a late fee may apply. Contact the accounts office as soon as possible to avoid further penalties."
+      ]
+    },
+    {
+      "tag": "study_help",
+      "patterns": [
+        "How can I prepare for my exams?", "Give me some study tips",
+        "How do I manage my study time", "What is the best way to revise",
+        "How can I improve my concentration while studying",
+        "Any tips for last minute exam preparation", "How to make a study schedule",
+        "How do I stay motivated to study", "Best way to memorize concepts",
+        "How to avoid procrastination while studying", "Tips for group study",
+        "How to take good notes in class"
+      ],
+      "responses": [
+        "Try creating a study schedule, reviewing your lecture notes regularly, and practicing previous year questions.",
+        "Break your study sessions into focused blocks with short breaks, and prioritize topics you find most difficult.",
+        "Active recall and spaced repetition are proven techniques; try summarizing chapters in your own words after reading them."
+      ]
+    },
+    {
+      "tag": "college_information",
+      "patterns": [
+        "Tell me about the college", "What courses does the college offer",
+        "Where is the college located", "Is the college affiliated to a university",
+        "What is the college ranking", "When was the college established",
+        "Does the college have a good placement record",
+        "What facilities does the campus have", "How do I contact the college office",
+        "Is the college NAAC accredited", "College admission process",
+        "What is the college's official website"
+      ],
+      "responses": [
+        "This is a demo prototype, so college-specific details aren't available, but generally you can find such information on the official college website or admissions office.",
+        "For accurate details about the college, ranking, or accreditation, please refer to the official website or contact the administration office.",
+        "College information such as courses and facilities is usually available in the prospectus or the official college portal."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "My student portal is not working", "I forgot my login password",
+        "How do I reset my account password", "The website is showing an error",
+        "I can't access my email account", "Wi-Fi is not working on campus",
+        "How do I connect to college Wi-Fi", "My ID card is not scanning",
+        "I'm facing an issue with online classes", "The app keeps crashing",
+        "How to report a technical issue", "Unable to upload files on the portal"
+      ],
+      "responses": [
+        "For technical issues, try clearing your browser cache first, and if the problem continues, contact the IT support desk.",
+        "You can usually reset your password using the 'Forgot Password' link on the login page, or contact the helpdesk for assistance.",
+        "Please report persistent technical issues to your college's IT support team along with a screenshot of the error."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What is the academic calendar", "When do semester classes start",
+        "When are the college holidays", "What is the date for semester break",
+        "When does the new academic year begin", "Is there a mid semester break",
+        "What is the last working day of this semester",
+        "When do second semester exams start", "College reopening date after vacation",
+        "Important dates for this academic year"
+      ],
+      "responses": [
+        "The academic calendar with semester start dates, holidays, and exam schedules is usually published on the college website at the beginning of the year.",
+        "You can check the exact dates for semester breaks and reopening on the official academic calendar shared by your department.",
+        "Important academic dates are typically announced by the academic office and posted on the notice board and portal."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available on campus", "Is there a gym in college",
+        "Does the college have a cafeteria", "Is there a medical room on campus",
+        "What sports facilities are available", "Is there a computer lab",
+        "Does the campus have Wi-Fi everywhere", "Is there a bank or ATM on campus",
+        "What extracurricular facilities are there", "Is there a auditorium in college",
+        "Sports complex information", "Canteen timings on campus"
+      ],
+      "responses": [
+        "Most campuses offer facilities like a cafeteria, library, computer labs, sports grounds, and medical support; check the campus guide for a full list.",
+        "Facilities such as gyms, auditoriums, and canteens are typically available; timing and access details are usually posted at each facility.",
+        "For a complete facilities list, refer to the college prospectus or ask at the administration office."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "What is the weather today", "Tell me a joke", "Who is the prime minister",
+        "What is the capital of France", "Can you order food for me",
+        "Play some music", "What is 2 plus 2", "Do you like cricket",
+        "Tell me a story", "What is your favorite movie",
+        "asdkj qweoiu random text", "blah blah nonsense query"
+      ],
+      "responses": [
+        "I'm not completely sure I understood that. Could you rephrase your question?",
+        "I'm designed to help with student-related queries. Could you ask something about college, courses, or exams?",
+        "Sorry, I couldn't quite catch the intent of that question. Could you try asking it differently?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+VoiceAssist - Model Evaluation Metrics
+=======================================
+Dataset size: 264
+Number of intents: 20
+Vocabulary size: 408
+Training samples: 211
+Validation samples: 53
+
+Accuracy : 0.6226
+Precision: 0.6236
+Recall   : 0.6226
+F1-score : 0.5829
+
+Classification report:
+                     precision    recall  f1-score   support
+
+  academic_calendar       0.00      0.00      0.00         2
+        assignments       1.00      0.67      0.80         3
+         attendance       1.00      1.00      1.00         4
+college_information       0.50      1.00      0.67         2
+            courses       0.50      0.33      0.40         3
+              exams       0.50      0.67      0.57         3
+         facilities       0.40      1.00      0.57         2
+           fallback       0.00      0.00      0.00         2
+               fees       0.67      0.67      0.67         3
+            goodbye       0.75      1.00      0.86         3
+           greeting       0.67      1.00      0.80         4
+             hostel       0.67      0.67      0.67         3
+         internship       1.00      0.67      0.80         3
+            library       0.50      0.50      0.50         2
+         placements       0.67      1.00      0.80         2
+           projects       1.00      0.33      0.50         3
+         study_help       0.50      1.00      0.67         2
+  technical_support       0.00      0.00      0.00         2
+             thanks       1.00      0.33      0.50         3
+          timetable       0.00      0.00      0.00         2
+
+           accuracy                           0.62        53
+          macro avg       0.57      0.59      0.54        53
+       weighted avg       0.62      0.62      0.58        53
